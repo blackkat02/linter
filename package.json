@@ -1,0 +1,21 @@
+{
+  "name": "no-console-log",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "tsc",
+    "test": "tsc && tsx --test --test-reporter=spec --import ./setup.js src/no-console-log.test.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@typescript-eslint/parser": "^8.37.0",
+    "@typescript-eslint/utils": "^8.37.0",
+    "eslint": "^9.37.0"
+  },
+  "devDependencies": {
+    "@typescript-eslint/rule-tester": "^8.37.0",
+    "tsx": "^4.20.3"
+  }
+}
